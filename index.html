@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>google.com</title>
+    <title>Clon Google</title>
 
 </head>
 
 <body>
-    <nav class="barra-principal">
+    <header class="barra-principal">
         <div class="barra-principal-gmail"><img src="images/usuario.png" alt="iconos">
 
 
@@ -20,14 +20,14 @@
 
 
         </div>
-        <div class="barra-principal-iconoUno">Imágenes
+        <a class="barra-principal-iconoDos" href="https://www.google.com.co">Imágenes</a>
 
 
         </div>
 
 
 
-        <div class="barra-principal-iconoDos">Gmail
+        <a class="barra-principal-iconoDos" href="https://www.google.com.co">Gmail</a>
 
 
         </div>
@@ -35,21 +35,22 @@
 
 
 
-    </nav>
+    </header>
     <aside class="logo-buscador">
 
-        <div class="logo"><img src="images/google.jpg" width="272px" height="92px" alt="iconos">
+        <div id="google" class="image-profile"><img src="images/google.jpg" width="272px" height="92px" alt="iconos">
 
 
         </div>
         <div class="buscador">
 
-            <div class="lupa-buscador-micro">
+            <div class="lupa-buscador-micro btn-search">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5F6368">
                     <path
                         d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
                 </svg>
-                <input type="text" class="input" placeholder="Buscar en google o escribir una URL">
+                <input id="input-search" type="text" class="input btn-search"
+                    placeholder="Buscar en google o escribir una URL">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                     <path fill="none" d="M0 0h24v24H0z" />
                     <path fill="#4285F4"
@@ -85,15 +86,18 @@
 
         </div>
         <div class="botones">
-            <button class="boton download-cv">Buscar en Google </button>
+            <button id="search" class="boton btn-search">Buscar en Google </button>
             <section class="space"></section>
-            <button class="boton download-cv">Voy a tener suerte </button>
+            <button id="lucky" class="boton btn-search">Voy a tener suerte </button>
 
         </div>
 
     </aside>
     <footer class="footer">
-        <div class="separador-footer">
+        <div class="separador-footer">Ofrecido por Google en:
+            <a
+                href="https://www.google.com/setprefs?sig=0_xHt04G5yPiK1IIgLSbqW21xlyKk%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiG-O6_wfj-AhVVTDABHaBEDBIQ2ZgBCBQ">Español
+                (Latinoamérica)</a>
 
         </div>
 

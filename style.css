@@ -60,7 +60,7 @@
     width: 100vw;
     height: 40vh;
 }
-.logo{
+#google{
     display: flex;
     background-color: white;
     width: 100vw;
@@ -85,7 +85,7 @@
     align-items: center;     
     background-color: white;
     width: 56vw;
-    height: 5vh;
+    height: 6vh;
     border-style: solid;
     box-sizing: border-box;
     border-radius: 15px;   
@@ -95,9 +95,10 @@
 }
 .input{
     border: 1px solid white;
-    width: 30vw;
+    width: 50vw;
     font-family: arial,sans-serif;
     font-size: 12px;
+    
   } 
   .botones{
     display: flex;
@@ -138,12 +139,13 @@
 
   } 
 
-  .download-cv:hover{
+  .btn-search:hover{
     /* background-color: #fff;     */
-    box-shadow: none;
+    box-shadow: 1px 2px 3px gray;
     font-family: arial,sans-serif;
     border: 1px solid  #cccccc;
     border-bottom: 3px solid #cccccc;
+    
 
   }
   .ultima-section-4{ 
@@ -179,10 +181,12 @@
   }
  
   .separador-footer{
-   
+    display :flex;    
+    justify-content: center;  
     background-color: white;
     width: 100vw;
     height: 20vh;
+    font-size: 10px;
   }
 
   .separador-footerDos{
@@ -192,7 +196,10 @@
     height: 5vh;
     font-size: 12px;
   }
-  section{
+  .section{
     color: #70757a;
+  }
+  .input-search{
+    outline: none;
   }
  
